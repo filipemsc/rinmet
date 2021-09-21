@@ -1,6 +1,5 @@
 # rinmet
-Este pacote consiste em um código de webscrapping que captura informações de todas as estações meteorológicas do Brasil administradas pelo Instituto Nacional de Meteorologia (INMET) e compila em uma base única. 
-Cada observação corresponde a uma estação, em determinada data e hora do dia.
+Este pacote consiste em um código de webscrapping que captura informações de todas as estações meteorológicas do Brasil administradas pelo Instituto Nacional de Meteorologia (INMET) e compila estes dados em uma base de dados unificada. Cada observação da base corresponde a informações coletadas por uma estação, em determinada data e hora do dia.
 
 Segue uma breve descrição das variáveis disponívels: 
 
