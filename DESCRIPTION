@@ -21,3 +21,5 @@ Imports:
     readr,
     stringi,
     utils
+URL: https://github.com/filipemsc/rinmet
+BugReports: https://github.com/filipemsc/rinmet/issues
