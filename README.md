@@ -1,5 +1,5 @@
 # rinmet
-Este pacote consiste em um código de webscrapping que captura informações de todas as estações meteorológicas do Brasil administradas pelo Instituto Nacional de Meteorologia (INMET) e compila estes dados em uma base de dados unificada. Cada observação da base corresponde a informações coletadas por uma estação, em determinada data e hora do dia.
+Este pacote consiste em um código de webscrapping que captura informações de todas as estações meteorológicas do Brasil administradas pelo Instituto Nacional de Meteorologia (INMET) e compila em uma base de dados unificada. Cada observação da base corresponde a informações coletadas por uma estação, em determinada data e hora do dia.
 
 Segue uma breve descrição das variáveis disponíveis: 
 
@@ -24,6 +24,16 @@ Segue uma breve descrição das variáveis disponíveis:
 |`vento_direcao`| Wind direction (gr)|
 |`vento_rajada_max`| Maximum wind gust, last hour (m/s)|
 |`vento_velocidade`| Wind speed, hour (m/s) |
+|`estacao`| Name of the meteorological station |
+|`codigo`| Code of the meteorological station |
+|`municipio`| City where station is located |
+|`id_municipio`| IBGE code of the city |
+|`regiao`| Brazilian region where the station is located|
+|`uf`| State of Brazil where the station is located |
+|`latitude`| Latitude of station|
+|`longitude `| Longitude of station|
+|`altitude`| Altitude of station |
+|`data_fundacao`| Date which the station was founded |
 
 
 
