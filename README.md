@@ -6,7 +6,7 @@ Segue uma breve descrição das variáveis disponívels:
 | ***Variável***| ***Descrição*** |
 |-----|-----|
 | `data` | Date |
-| `hour` | Hour (UTC) |
+| `hora` | Hour (UTC) |
 | `precipitacao_total` | Total precipitation, hour (mm) |
 |`pressao_atm_nivel`|Atmospheric pressure at station level, hour (mB)|
 |`pressao_atm_max`| Maximum atmospheric pressure at station level, last hour (mB)|
