@@ -10,6 +10,7 @@ get_clima_info <- function(file){
     sep = ";",
     skip = 7,
     dec = ",",
+    encoding="UTF-8"
     #nrow = 50 - only for testing purposes
   )
 
@@ -17,7 +18,8 @@ get_clima_info <- function(file){
     file = file,
     nrows = 8,
     header = FALSE,
-    col.names= c("caract","value"))
+    col.names= c("caract","value"),
+    encoding = "UTF-8")
 
   clima <- dplyr::select(clima, - V20)
 
