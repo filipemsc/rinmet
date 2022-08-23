@@ -18,7 +18,7 @@ get_clima_info <- function(file){
     header = FALSE,
     col.names= c("caract","value"))
 
-  clima <- dplyr::select(clima, - x)
+  clima <- dplyr::select(clima, - X)
 
   names(clima) <- change_names(clima)
 
