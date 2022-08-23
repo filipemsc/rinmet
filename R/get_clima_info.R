@@ -5,21 +5,18 @@
 
 get_clima_info <- function(file){
 
-  clima <- data.table::fread(
-    file = file,
-    sep = ";",
-    skip = 7,
-    dec = ",",
-    encoding="Latin-1"
-    #nrow = 50 - only for testing purposes
-  )
+  clima <- utils::read.csv(file = file,
+         skip = 8, 
+         dec = ",",
+         sep = ";",
+         header=TRUE,
+         encoding = "ISO-8859-1")
 
   caract <- data.table::fread(
     file = file,
     nrows = 8,
     header = FALSE,
-    col.names= c("caract","value"),
-    encoding = "Latin-1")
+    col.names= c("caract","value"))
 
   clima <- dplyr::select(clima, - V20)
 
