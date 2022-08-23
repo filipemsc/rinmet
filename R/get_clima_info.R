@@ -10,7 +10,7 @@ get_clima_info <- function(file){
          dec = ",",
          sep = ";",
          header=TRUE,
-         encoding = "ISO-8859-1")
+         fileEncoding = "ISO-8859-1")
 
   caract <- data.table::fread(
     file = file,
