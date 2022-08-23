@@ -32,7 +32,7 @@ get_clima_info <- function(file){
   clima$data_fundacao <- get_data(as.character(caract[8,2]))
 
   clima[clima == -9999] <- NA
-  clima <- dplyr::mutate(clima, data = get_data(as.character(data)))
+  clima <- dplyr::mutate(clima, data = as.character(data))
   clima[,3:19] <- clima[,3:19] %>% lapply(as.numeric)
   clima$hora <- as.numeric(substr(clima$hora, 1,2))
 
